@@ -21,11 +21,11 @@ h1 {
 }
 
 .text * {
-	display: inline-block;
-	width: 48%;
-	margin:0;
-	padding: 0;
-	vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
 }
 
 .backgroundImage {
@@ -44,19 +44,23 @@ h2 {
   color: dodgerblue;
   font-size: 40px;
   text-align: left;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 h3 {
-	font-size: 16px;
-	text-align: right;
+  font-size: 16px;
+  text-align: right;
 }
 
-h3 a:link, h3 a:visited {
-	color: dodgerblue;
-	text-decoration: none;
+h3 a:link,
+h3 a:visited {
+  color: dodgerblue;
+  text-decoration: none;
 }
 
 h3 a:hover {
-	color: white;
-	
+  color: white;
 }
